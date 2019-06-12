@@ -1,5 +1,7 @@
 package br.pro.hashi.ensino.desagil.desafio.model;
 
+
+
 public class Element {
     protected int row;
     protected int col;
@@ -9,9 +11,15 @@ public class Element {
         this.col = col;
     }
 
+    protected void move(int rowShift, int colShift) {
+        row += rowShift;
+        col += colShift;
+    }
+
     public int getRow() {
         return row;
     }
+
 
     public int getCol() {
         return col;
