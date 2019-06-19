@@ -68,6 +68,7 @@ public class Board {
 
     public int getNumRows() {
         return numRows;
+
     }
 
     public int getNumCols() {
